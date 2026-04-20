@@ -21,6 +21,9 @@
 # use try-except-else-finally block to handle the case where the input is not an iterable
 
 def rev_num(iterable):
+    error_type = None
+    message = None
+
     try:
         result = iterable[::-1]
     
@@ -37,5 +40,4 @@ def rev_num(iterable):
         else:
             return result
 
-iterable = input("Enter a number: ")
-print(rev_num(iterable))
+print(rev_num([1,2,3,4,5]))
