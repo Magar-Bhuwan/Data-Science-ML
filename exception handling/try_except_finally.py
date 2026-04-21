@@ -36,8 +36,8 @@ def rev_num(iterable):
 
     finally:
         if error_type:
-            return f'{error_type} : {message}'
+            print(f'{error_type} : {message}') 
         else:
-            return result
+            print (result)
 
 print(rev_num([1,2,3,4,5]))
