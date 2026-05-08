@@ -24,3 +24,5 @@ def blackjack_hand_greater_than(hand_1, hand_2):
     h2 = hand_value(hand_2)
 
     return h1 <= 21 and (h1 > h2 or h2 > 21)
+
+help(range)
